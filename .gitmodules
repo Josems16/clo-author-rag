@@ -1,0 +1,3 @@
+[submodule "rag-engine"]
+	path = rag-engine
+	url = https://github.com/Josems16/paper-rag.git
