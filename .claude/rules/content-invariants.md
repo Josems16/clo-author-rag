@@ -12,15 +12,15 @@ These are non-negotiable. Every agent checks against them. Violations are deduct
 
 **INV-3.** No `\hline` — use `\toprule`, `\midrule`, `\bottomrule` (booktabs). No vertical rules.
 
-**INV-4.** Significance stars follow the journal profile. AEA journals: no stars, report standard errors and use confidence intervals. Default: stars with note defining thresholds.
+**INV-4.** Statistical reporting follows the journal profile. Engineering journals: report mean ± uncertainty (expanded, k=2) or confidence intervals. Significance stars are not standard in engineering — use p-values or confidence intervals explicitly. Check the journal profile for deviations.
 
-**INV-5.** Abstract is 150 words or fewer.
+**INV-5.** Abstract length follows the journal profile. Default for engineering: 200–300 words. Elsevier journals typically allow up to 300 words. Do not exceed the journal's stated limit.
 
-**INV-6.** JEL codes and keywords present after the abstract.
+**INV-6.** Keywords (5–8) present after the abstract. No JEL codes for engineering papers. Highlights (3–5 bullet points, ≤85 characters each) required for Elsevier journal submissions — check the journal profile.
 
-**INV-7.** Notation is consistent across all sections — the same symbol means the same thing everywhere. Different concepts get different symbols.
+**INV-7.** Notation is consistent across all sections — the same symbol means the same thing everywhere. Different concepts get different symbols. A Nomenclature section is required when more than 10 symbols are used (standard in heat transfer and fluid mechanics papers).
 
-**INV-8.** Every causal claim has a corresponding identification section. No causal language in descriptive papers.
+**INV-8.** Every experimental or mechanistic claim must be supported by evidence: measured data with uncertainty, validated simulation, or theoretical derivation. Qualitative claims ("the heat transfer improves") must be quantified ("by 23 ± 4% at Re = 5000").
 
 **INV-9.** `biblatex` + `biber`, not `natbib` + `bibtex`.
 

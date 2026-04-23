@@ -348,6 +348,197 @@ Each journal profile includes a **Referee pool** that weights which dispositions
 
 ---
 
+## Engineering and Materials Science
+
+> In engineering journals the referee dispositions map as follows:
+> **STRUCTURAL** → experimental design & methodology rigor · **CREDIBILITY** → validation & reproducibility · **MEASUREMENT** → instrumentation, uncertainty, data quality · **POLICY** → industrial applicability & sustainability · **THEORY** → governing equations, modelling, analytical framework · **SKEPTIC** → adversarial, questions every assumption
+
+---
+
+**Heat Transfer & Thermal Engineering — Top Field**
+
+### International Journal of Heat and Mass Transfer (IJHMT)
+**Focus:** Fundamental and applied heat and mass transfer — convection, conduction, radiation, phase change, mass transfer, heat exchangers
+**Bar:** The reference journal for heat transfer. Rigorous experimental or numerical work with clear novelty over existing correlations and models. Incremental improvements to geometry or operating conditions are insufficient unless the mechanism is new.
+**Domain referee adjusts:** Governing dimensionless groups must be correctly defined and justified. Comparison against established correlations (Dittus-Boelter, Gnielinski, etc.) required. Boundary conditions must be fully specified. Thermophysical properties evaluated at the correct reference temperature. Heat balance closure must be demonstrated.
+**Methods referee adjusts:** Experimental: uncertainty analysis mandatory (Kline & McClintock or GUM). Grid independence study required for numerical work. Validation against benchmark data or analytical solutions before novel predictions. Mesh and time-step convergence documented. Turbulence model selection justified.
+**Typical concerns:** "What's the novelty over existing correlations?" "Where is the uncertainty analysis?" "Have you validated the model against independent data?" "Are the thermophysical properties correctly evaluated?" "Does the heat balance close?"
+**Referee pool:** THEORY (high), MEASUREMENT (high), CREDIBILITY (high), STRUCTURAL (medium), SKEPTIC (medium), POLICY (low)
+
+### Applied Thermal Engineering (ATE)
+**Focus:** Applied heat transfer and thermodynamics — industrial systems, heat exchangers, HVAC, energy conversion, thermal management
+**Bar:** Strong applied focus. Must demonstrate engineering relevance beyond the laboratory. Performance improvement over current technology must be quantified.
+**Domain referee adjusts:** System-level performance metrics required (COP, effectiveness, efficiency). Comparison against commercial or benchmark systems. Energy and exergy analysis valued. Operating conditions must reflect realistic industrial scenarios, not just laboratory optima.
+**Methods referee adjusts:** Experimental validation of numerical models required if both are presented. Uncertainty propagation through derived quantities (effectiveness, COP). Parametric studies showing sensitivity to key variables. Economic or environmental impact analysis strengthens the paper.
+**Typical concerns:** "How does this compare to current commercial solutions?" "What are the realistic operating conditions?" "Where is the exergy analysis?" "Have you quantified the uncertainty in the derived efficiency metrics?"
+**Referee pool:** POLICY (high), MEASUREMENT (high), CREDIBILITY (medium), STRUCTURAL (medium), THEORY (low), SKEPTIC (medium)
+
+---
+
+**Heat Transfer & Thermal Engineering — Strong Field**
+
+### Experimental Thermal and Fluid Science (ETFS)
+**Focus:** Experimental investigation of thermal and fluid phenomena — measurement techniques, flow visualization, heat transfer coefficients
+**Bar:** Experimental rigor is the primary criterion. Novel measurement methodology or systematic characterization of a phenomenon not previously measured. Instrumentation and uncertainty must be impeccable.
+**Domain referee adjusts:** Measurement technique must be described in sufficient detail for replication. Sensor calibration documented. Repeatability demonstrated (replicate runs). Flow conditions fully characterized (Re, boundary conditions). Comparison with theory or correlations required.
+**Methods referee adjusts:** Expanded uncertainty (k=2, 95% confidence) mandatory for all reported quantities. Propagation from raw measurements to derived quantities shown explicitly. Systematic and random errors separated. Number of replicate experiments sufficient to estimate repeatability.
+**Typical concerns:** "How were the sensors calibrated?" "What is the uncertainty in the reported heat transfer coefficient?" "How many replicates were run?" "Is the flow fully developed at the measurement location?"
+**Referee pool:** MEASUREMENT (high), CREDIBILITY (high), STRUCTURAL (medium), SKEPTIC (medium), THEORY (low), POLICY (low)
+
+### International Communications in Heat and Mass Transfer (ICHMT)
+**Focus:** Short communications — rapid publication of significant new results in heat and mass transfer
+**Bar:** Single focused result, letter format. Novel finding that warrants rapid communication; not a full study. 4,000–6,000 words maximum.
+**Domain referee adjusts:** One clear, novel result. No room for comprehensive parametric studies — save those for IJHMT. The finding must stand on its own without extensive context.
+**Methods referee adjusts:** Shorter but rigorous. Uncertainty still required. Validation concise but present. Reproducibility must be apparent from the description even if details are condensed.
+**Typical concerns:** "Is this a full IJHMT paper in disguise?" "What is the single key finding?" "Is the novelty sufficient for a rapid communication?"
+**Referee pool:** SKEPTIC (high), MEASUREMENT (medium), CREDIBILITY (medium), THEORY (medium), STRUCTURAL (low), POLICY (low)
+
+### Journal of Heat Transfer (JHT — ASME Transactions)
+**Focus:** Fundamental heat transfer, thermodynamics, and fluid mechanics — ASME audience (mechanical engineering)
+**Bar:** Fundamental contribution, often with analytical or theoretical basis. ASME values rigorous derivations alongside experiments.
+**Domain referee adjusts:** ASME nomenclature conventions. SI units mandatory. Analytical or theoretical framework expected even for experimental papers. Dimensional analysis before experiments.
+**Methods referee adjusts:** ASME format for uncertainty (ASME PTC 19.1). Grid independence mandatory for CFD. Turbulence model selection with justification. Comparison to analytical solutions where available.
+**Typical concerns:** "Where is the analytical framework?" "Are the SI units used consistently?" "Have you followed ASME uncertainty standards?"
+**Referee pool:** THEORY (high), MEASUREMENT (high), CREDIBILITY (medium), STRUCTURAL (medium), SKEPTIC (low), POLICY (low)
+
+---
+
+**Energy & Buildings**
+
+### Energy and Buildings (E&B)
+**Focus:** Energy use in buildings — HVAC, passive cooling, thermal comfort, building envelopes, renewable integration
+**Bar:** Demonstrated energy savings or comfort improvement. Real building or validated simulation. Climate context required.
+**Domain referee adjusts:** Climate zone must be specified. Comparison against baseline building code or conventional system. Comfort metrics (PMV, PPD, operative temperature) alongside energy metrics. Life cycle perspective valued.
+**Methods referee adjusts:** Building simulation (EnergyPlus, TRNSYS, IDA ICE) must be validated against measured data. Uncertainty in simulation inputs acknowledged. Annual energy performance, not just peak conditions.
+**Typical concerns:** "What climate zone?" "What is the baseline for comparison?" "Is the simulation validated?" "What are the thermal comfort implications?"
+**Referee pool:** POLICY (high), CREDIBILITY (medium), MEASUREMENT (medium), STRUCTURAL (medium), THEORY (low), SKEPTIC (medium)
+
+### Applied Energy
+**Focus:** Energy conversion, storage, and efficiency — renewable energy systems, energy policy, smart grids, decarbonization
+**Bar:** Quantified energy/emissions impact. System-level analysis. High engineering and policy relevance.
+**Domain referee adjusts:** Life cycle assessment or techno-economic analysis strengthens the paper significantly. Scalability discussion required. Comparison against current energy mix or alternative solutions.
+**Methods referee adjusts:** Energy balance closure. Simulation validated against real plant data. Sensitivity and uncertainty analysis on key economic/environmental parameters. Monte Carlo for uncertainty propagation in TEA/LCA.
+**Typical concerns:** "What is the levelized cost?" "Have you done an LCA?" "How does this scale to real-world deployment?" "What are the CO₂ savings?"
+**Referee pool:** POLICY (high), STRUCTURAL (medium), CREDIBILITY (medium), MEASUREMENT (medium), THEORY (low), SKEPTIC (medium)
+
+---
+
+**Additive Manufacturing & Manufacturing Processes**
+
+### Additive Manufacturing (AM — Elsevier)
+**Focus:** All additive manufacturing processes and materials — process–structure–property relationships, design for AM, post-processing, characterization
+**Bar:** The top journal for AM research. Must advance understanding of process–structure–property relationships or introduce a genuinely new capability. Process parameter studies without microstructural or property linkage are insufficient.
+**Domain referee adjusts:** AM process fully described: machine, parameters (layer thickness, exposure time, power, scan strategy), atmosphere, post-processing. Material characterization beyond density — microstructure, phases, defects. Property comparison against wrought or conventionally manufactured equivalent.
+**Methods referee adjusts:** Statistical design (DOE) expected for parameter studies. Characterization techniques validated (XRD, SEM/EDS, TEM if needed). Mechanical testing following standard (ASTM, ISO). Defect analysis (porosity, cracking, delamination) quantified.
+**Typical concerns:** "What is the process–structure–property linkage?" "How does this compare to conventional manufacturing?" "Is the DOE statistically valid?" "Have you characterized the microstructure, not just the density?"
+**Referee pool:** STRUCTURAL (high), MEASUREMENT (high), CREDIBILITY (high), THEORY (medium), SKEPTIC (medium), POLICY (low)
+
+### Journal of Manufacturing Processes (JMP)
+**Focus:** Manufacturing processes — machining, forming, joining, AM, surface engineering, process monitoring
+**Bar:** Process innovation or systematic characterization with engineering application. Practical manufacturing relevance required.
+**Domain referee adjusts:** Process parameters and their ranges must be industrially realistic. Comparison with conventional process. Surface quality, dimensional accuracy, or part properties must be quantified. Economic feasibility discussed.
+**Methods referee adjusts:** DOE (Taguchi, RSM, Box-Behnken) expected for parameter optimization. ANOVA for factor significance. Regression models validated. Measurement system analysis (Gage R&R) for key responses.
+**Typical concerns:** "Are the process parameters industrially relevant?" "What is the Gage R&R for your measurement system?" "Have you validated the regression model?"
+**Referee pool:** STRUCTURAL (high), MEASUREMENT (high), POLICY (medium), CREDIBILITY (medium), THEORY (low), SKEPTIC (low)
+
+### Journal of Materials Processing Technology (JMPT)
+**Focus:** Materials processing — forming, casting, welding, heat treatment, surface modification, AM, machining
+**Bar:** Rigorous experimental study linking processing parameters to material structure and properties. High impact factor for manufacturing — novelty threshold is significant.
+**Domain referee adjusts:** Process–microstructure–property chain must be closed. Characterization at multiple scales (macro, micro, nano if relevant). Failure analysis for negative results also valued. Industrial process conditions.
+**Methods referee adjusts:** Full factorial or response surface DOE for parameter studies. Microstructural characterization (SEM, EBSD, XRD) to support property claims. Mechanical testing per standard. FEM simulation validated against experiments if included.
+**Typical concerns:** "The process–property link is missing." "What does the microstructure look like?" "Are the mechanical tests following a standard?" "Where is the FEM validation?"
+**Referee pool:** MEASUREMENT (high), STRUCTURAL (high), CREDIBILITY (high), THEORY (medium), POLICY (low), SKEPTIC (medium)
+
+### Virtual and Physical Prototyping (VPP)
+**Focus:** AM processes, design for AM, 4D printing, multi-material AM, process simulation, in-situ monitoring
+**Bar:** Strong AM focus. Process innovation, novel material–process combinations, or in-situ characterization. Design for AM (DfAM) with demonstrated performance improvement.
+**Domain referee adjusts:** Process parameters fully reported. In-situ or ex-situ characterization linked to process conditions. DfAM papers must quantify performance gain (weight, topology, thermal) vs. conventional design.
+**Methods referee adjusts:** In-situ monitoring data (melt pool, layer imaging) must be correlated to part quality metrics. Statistical evaluation of dimensional accuracy and surface roughness. Post-processing effects on final properties must be separated from as-built effects.
+**Typical concerns:** "How do the process parameters affect the in-situ signatures?" "What is the dimensional accuracy vs. CAD?" "Have you separated as-built from post-processed properties?"
+**Referee pool:** STRUCTURAL (high), MEASUREMENT (high), CREDIBILITY (medium), THEORY (medium), SKEPTIC (medium), POLICY (low)
+
+### Rapid Prototyping Journal (RPJ)
+**Focus:** Rapid prototyping, AM, tooling, reverse engineering, product development — broad AM scope including polymer, metal, ceramic
+**Bar:** Applied AM with clear product or process benefit. Less fundamental than Additive Manufacturing journal — engineering application and practical novelty sufficient.
+**Domain referee adjusts:** Application context must be clear and realistic. Dimensional accuracy and surface finish are primary quality metrics. Material properties in context of the intended application. Cost or lead-time comparison vs. alternative manufacturing valued.
+**Methods referee adjusts:** Dimensional metrology (CMM, 3D scanning) with GD&T interpretation. Surface roughness measurement (Ra, Rz). Mechanical testing per standard. Process time and cost analysis.
+**Typical concerns:** "How does dimensional accuracy compare to the tolerance required by the application?" "What is the surface finish relative to the function?" "Have you compared cost and lead time vs. conventional manufacturing?"
+**Referee pool:** POLICY (high), MEASUREMENT (high), STRUCTURAL (medium), CREDIBILITY (medium), THEORY (low), SKEPTIC (low)
+
+### Progress in Additive Manufacturing (PIAM)
+**Focus:** Reviews, perspectives, and original research on AM — all processes, all materials, simulation, standardization, sustainability
+**Bar:** Review papers: comprehensive, systematic, with clear gaps identified. Original research: novel contribution to AM science or technology with broader implications for the field.
+**Domain referee adjusts:** Reviews must be systematic (search strategy documented). Original papers must contextualize within the AM technology landscape. Sustainability and circular economy perspective valued.
+**Methods referee adjusts:** Reviews: PRISMA protocol or equivalent for systematic literature reviews. Original research: standard characterization and testing with statistical rigor.
+**Typical concerns:** "Is the review systematic?" "What are the research gaps identified?" "How does this contribute to AM standardization or sustainability?"
+**Referee pool:** STRUCTURAL (high), POLICY (high), CREDIBILITY (medium), MEASUREMENT (medium), THEORY (low), SKEPTIC (medium)
+
+### Journal of Manufacturing Science and Engineering (JMSE — ASME)
+**Focus:** Manufacturing processes, systems, and automation — machining, forming, AM, metrology, process control (ASME audience)
+**Bar:** Rigorous engineering science. Analytical model validated by experiment is the ideal ASME paper. Pure experimental or pure simulation acceptable if contribution is significant.
+**Domain referee adjusts:** ASME notation and SI units. Governing equations of the process must be presented. Manufacturing system perspective (process → quality → cost) expected.
+**Methods referee adjusts:** Analytical or semi-analytical model preferred alongside experiments. FEM for process simulation must include validation. Statistical analysis of experimental results (ANOVA, regression). Uncertainty per ASME PTC 19.1.
+**Typical concerns:** "Where is the analytical model?" "Have you validated the simulation against experiments?" "What is the process physics underlying the observation?"
+**Referee pool:** THEORY (high), MEASUREMENT (high), STRUCTURAL (high), CREDIBILITY (medium), SKEPTIC (medium), POLICY (low)
+
+---
+
+**Materials Science**
+
+### Acta Materialia
+**Focus:** Physical and mechanical metallurgy, materials science — microstructure, mechanical properties, phase transformations, defects
+**Bar:** Top materials science journal. Fundamental materials science insight, not just characterization. Must advance understanding of structure–property relationships at a mechanistic level.
+**Domain referee adjusts:** Deep mechanistic understanding required — not just "material X has property Y" but "why." Phase diagrams, thermodynamic arguments, dislocation theory, fracture mechanics as appropriate. First-principles or CALPHAD supporting experimental findings valued.
+**Methods referee adjusts:** Multi-scale characterization expected: SEM/EBSD for texture, TEM for defect structure, APT for compositional analysis where relevant. Mechanical testing statistically sound (n ≥ 5 per condition). DIC for strain field analysis valued. Modeling (MD, DFT, phase field) alongside experiments for mechanism elucidation.
+**Typical concerns:** "What is the mechanism?" "Can you support this with TEM or APT?" "Where is the thermodynamic justification?" "The microstructural evidence is insufficient to support the claim."
+**Referee pool:** THEORY (high), MEASUREMENT (high), CREDIBILITY (high), STRUCTURAL (medium), SKEPTIC (high), POLICY (low)
+
+### Materials & Design
+**Focus:** Materials selection, design, and characterization — functional materials, composites, coatings, biomaterials, AM materials
+**Bar:** Applied materials science with clear design relevance. Novelty in material composition, processing route, or application. Less fundamental than Acta Materialia — application-driven.
+**Domain referee adjusts:** Design motivation must be clear. Comparison against current material alternatives. Multi-functional properties valued (mechanical + thermal + corrosion, etc.). Sustainability and recyclability increasingly weighted.
+**Methods referee adjusts:** Full characterization suite expected. Statistical analysis of mechanical data. Failure analysis (fractography) for mechanical property claims. Aging or degradation study if the application involves environmental exposure.
+**Typical concerns:** "Why is this better than existing materials?" "Have you characterized degradation under service conditions?" "Is the sample size sufficient for statistical conclusions?"
+**Referee pool:** POLICY (high), MEASUREMENT (high), STRUCTURAL (medium), CREDIBILITY (medium), THEORY (low), SKEPTIC (medium)
+
+### Journal of the European Ceramic Society (JECS)
+**Focus:** Ceramics and glass — processing, microstructure, mechanical and functional properties, ceramic composites
+**Bar:** Significant advance in ceramic science or technology. Processing–microstructure–property relationships. Functional ceramics (dielectrics, piezoelectrics, bioceramics) alongside structural ceramics.
+**Domain referee adjusts:** Sintering conditions fully specified. Phase identification by XRD mandatory. Microstructural characterization (SEM, density by Archimedes). Mechanical testing following EN/ISO standards. Thermal stability for high-temperature applications.
+**Methods referee adjusts:** Relative density must be reported. XRD with Rietveld refinement for quantitative phase analysis. Weibull statistics for brittle fracture data. Thermal analysis (TGA/DSC) for processing studies.
+**Typical concerns:** "What is the sintering mechanism?" "Where is the Weibull analysis?" "Have you identified all phases by XRD?" "Is the relative density sufficient for the claimed properties?"
+**Referee pool:** MEASUREMENT (high), STRUCTURAL (high), CREDIBILITY (medium), THEORY (medium), SKEPTIC (medium), POLICY (low)
+
+---
+
+**Specialty / Open Access**
+
+### Case Studies in Thermal Engineering
+**Focus:** Applied thermal engineering case studies — real systems, industry-relevant conditions, engineering solutions
+**Bar:** Lower novelty threshold than top journals. Must present a complete, well-documented engineering case with transferable lessons. Rigorous within its scope.
+**Domain referee adjusts:** Real or realistic system. Engineering conclusions transferable to similar applications. No need for fundamental novelty — thorough documentation of a well-executed applied study is sufficient.
+**Methods referee adjusts:** Uncertainty analysis still required. Validation against real system data preferred. Clear presentation of operating conditions and boundary conditions.
+**Typical concerns:** "What are the transferable lessons?" "Is the case documented in sufficient detail for replication?" "Where is the uncertainty analysis?"
+**Referee pool:** POLICY (high), MEASUREMENT (medium), CREDIBILITY (medium), STRUCTURAL (medium), THEORY (low), SKEPTIC (low)
+
+### Thermal Science and Engineering Progress (TSEP)
+**Focus:** Thermal engineering progress — heat transfer, energy systems, thermal management, emerging technologies
+**Bar:** Sound engineering work with practical relevance. More accessible than IJHMT but rigour expected.
+**Domain referee adjusts:** Clear motivation and application context. Parametric results must be presented systematically. Correlations or design guidelines from the results valued.
+**Methods referee adjusts:** Uncertainty analysis required. Validation against literature data acceptable when experiments not feasible. Mesh independence for CFD.
+**Typical concerns:** "Have you compared against existing correlations?" "Where is the uncertainty?" "Can you derive a design correlation from these results?"
+**Referee pool:** MEASUREMENT (medium), CREDIBILITY (medium), POLICY (medium), STRUCTURAL (medium), THEORY (low), SKEPTIC (low)
+
+### Results in Engineering
+**Focus:** Broad engineering — preliminary results, negative results, replication studies, short communications
+**Bar:** Sound methodology and honest reporting. Values completeness and reproducibility over impact. Accepts negative and confirmatory results.
+**Domain referee adjusts:** Scope is very broad — any engineering discipline. The key criterion is methodological soundness, not novelty. Replication studies explicitly welcomed.
+**Methods referee adjusts:** Reproducibility and transparency are primary. Data must be available (open data encouraged). Methods described in sufficient detail for replication.
+**Typical concerns:** "Is the methodology sound?" "Are the data available?" "Is the description sufficient for replication?"
+**Referee pool:** CREDIBILITY (high), MEASUREMENT (medium), STRUCTURAL (medium), POLICY (low), THEORY (low), SKEPTIC (low)
+
+---
+
 ## Add Your Own Journal
 
 Copy this template and add it above this section:
